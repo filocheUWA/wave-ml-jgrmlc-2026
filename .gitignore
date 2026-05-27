@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Large generated diagnostics kept locally, not in the public repository.
+results/*/Exp_*/loss_data/ensemble_test_err_df.csv
+results/*/Exp_*/loss_data/inference_checkpoints_csv/
+results/*/Exp_*/figures/videos/ens_hs_components.gif

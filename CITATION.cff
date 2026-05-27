@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this software repository."
+title: "Site-specific post-processing of spectral wave forecast by learning from buoy measurements"
+authors:
+  - family-names: "Filoche"
+    given-names: "Arthur"
+  - family-names: "Hansen"
+    given-names: "Jeff"
+  - family-names: "Vinsen"
+    given-names: "Kevin"
+  - family-names: "Dawson"
+    given-names: "Travis"
+repository-code: "TO_BE_UPDATED_WITH_PUBLIC_REPOSITORY_URL"
+abstract: "Machine-learning pipeline for site-specific post-processing of ECMWF spectral wave forecasts using local buoy measurements and contextual variables."
+keywords:
+  - wave forecasting
+  - post-processing
+  - spectral waves
+  - machine learning
+  - ECMWF
+  - buoy observations
+license: "NOASSERTION"

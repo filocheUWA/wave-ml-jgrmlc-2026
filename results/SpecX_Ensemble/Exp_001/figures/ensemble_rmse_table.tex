@@ -1,0 +1,28 @@
+
+\begin{table*}[t]
+\centering
+\caption{RMSE comparison for Total, Swell, and Wind Sea components.}
+\label{table:wave_metrics_rmse_all}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccccccc@{}}
+\toprule
+ & \multicolumn{3}{@{}c@{}}{\textbf{Total}} & \multicolumn{3}{@{}c@{}}{\textbf{Swell}} & \multicolumn{3}{@{}c@{}}{\textbf{Wind Sea}} \\ \cmidrule{2-4}\cmidrule{5-7}\cmidrule{8-10}
+\textbf{Model} & \textbf{Hs} & \textbf{Tp} & \textbf{Tm02} & \textbf{Hs} & \textbf{Tp} & \textbf{Tm02} & \textbf{Hs} & \textbf{Tp} & \textbf{Tm02} \\ \midrule
+\multicolumn{10}{c}{\textbf{LEAD: t+3 hours}} \\ \midrule
+\textbf{ECMWF} & 0.16 & 3.38 & 0.66 & 0.15 & 1.89 & 0.74 & 0.14 & 1.41 & 0.45 \\
+\textbf{ML-Ensemble} & 0.17 & 2.80 & 0.60 & 0.12 & 1.35 & 0.54 & 0.15 & 1.23 & 0.42 \\
+\midrule
+\multicolumn{10}{c}{\textbf{LEAD: t+1.0 days}} \\ \midrule
+\textbf{ECMWF} & 0.16 & 3.53 & 0.70 & 0.14 & 2.05 & 0.75 & 0.14 & 1.40 & 0.47 \\
+\textbf{ML-Ensemble} & 0.16 & 3.04 & 0.64 & 0.11 & 1.33 & 0.53 & 0.15 & 1.24 & 0.43 \\
+\midrule
+\multicolumn{10}{c}{\textbf{LEAD: t+2.5 days}} \\ \midrule
+\textbf{ECMWF} & 0.23 & 3.71 & 0.78 & 0.15 & 2.26 & 0.79 & 0.21 & 1.46 & 0.50 \\
+\textbf{ML-Ensemble} & 0.22 & 3.03 & 0.70 & 0.11 & 1.36 & 0.55 & 0.21 & 1.28 & 0.46 \\
+\midrule
+\multicolumn{10}{c}{\textbf{LEAD: t+5.0 days}} \\ \midrule
+\textbf{ECMWF} & 0.25 & 3.79 & 0.92 & 0.16 & 2.22 & 0.81 & 0.24 & 1.47 & 0.59 \\
+\textbf{ML-Ensemble} & 0.25 & 3.06 & 0.88 & 0.13 & 1.38 & 0.57 & 0.25 & 1.32 & 0.55 \\
+\midrule
+\bottomrule
+\end{tabular*}
+\end{table*}
