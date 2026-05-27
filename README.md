@@ -121,9 +121,6 @@ Additional reproduction notes are provided in
 - [Experiment configuration](docs/experiment_config.md)
 - [Figure reproduction](docs/reproduce_figures.md)
 - [Known limitations](docs/known_limitations.md)
-- [Data availability draft](DATA_AVAILABILITY.md)
-- [Software availability draft](SOFTWARE_AVAILABILITY.md)
-- [Release checklist](PUBLICATION_CHECKLIST.md)
 
 ## Availability status
 
